@@ -1,0 +1,18 @@
+python pdf-split.py test.pdf output.pdf --offset 14
+
+python pdf-split.py 计算机操作系统-第4版-汤小丹.pdf 计算机操作系统-第4版-汤小丹-split.pdf --offset 8
+
+python pdf-split.py 计算机操作系统-第4版-学习指导与题解-汤小丹.pdf   计算机操作系统-第4版-学习指导与题解-汤小丹-split.pdf --offset 8
+
+python pdf-split.py 计算机网络-第8版-谢希仁.pdf   计算机网络-第8版-谢希仁-split.pdf --offset 8
+
+python pdf-split.py 计算机组成原理-第3版-唐朔飞.pdf   计算机组成原理-第3版-唐朔飞-split.pdf --offset 8
+
+python pdf-split.py 数据结构-C语言版-第2版-严蔚敏.pdf   数据结构-C语言版-第2版-严蔚敏-split.pdf --offset 8
+
+python pdf-split.py 数学分析教程-第3版-上册.pdf   数学分析教程-第3版-上册-split.pdf --offset 8
+
+python pdf-split.py 数学分析教程-第3版-下册.pdf   数学分析教程-第3版-下册-split.pdf --offset 8
+
+python pdf-split.py --input 深入理解计算机系统-第3版.pdf
+
