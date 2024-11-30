@@ -12,7 +12,7 @@ echo %remarks%
 git add .
 
 git commit -m  %remarks%
-git push origin master
+git push origin main
 
 echo --End--
 @pause
