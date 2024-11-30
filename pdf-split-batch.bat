@@ -1,12 +1,5 @@
-
-set /p input=please enter the pdf path to parse: 
+set /p input=please enter the pdf path to parse batch: 
 set "input=%input:"=%"
-
-if not exist "%input%" (
-    @echo not exists
-    @pause
-    exit /b
-)
 
 for %%f in ("%input%\*.pdf") do (
 @echo spliting %%f
