@@ -1,3 +1,5 @@
+uv run pdf-split.py --input 深入理解计算机系统-第3版.pdf  --output 深入理解计算机系统-第3版-split.pdf 
+
 python pdf-split.py test.pdf output.pdf --offset 14
 
 python pdf-split.py 计算机操作系统-第4版-汤小丹.pdf 计算机操作系统-第4版-汤小丹-split.pdf --offset 8
@@ -15,4 +17,6 @@ python pdf-split.py 数学分析教程-第3版-上册.pdf   数学分析教程-�
 python pdf-split.py 数学分析教程-第3版-下册.pdf   数学分析教程-第3版-下册-split.pdf --offset 8
 
 python pdf-split.py --input 深入理解计算机系统-第3版.pdf
+
+
 
